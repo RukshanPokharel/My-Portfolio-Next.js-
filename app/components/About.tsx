@@ -38,7 +38,7 @@ const timeline = [
 
 export default function About() {
   return (
-    <section className="px-6 py-16 max-w-4xl mx-auto text-center">
+    <section id="about" className="px-6 py-16 max-w-4xl mx-auto text-center">
       <motion.h2
         className="text-3xl font-bold mb-8 text-gray-900 dark:text-white"
         initial={{ opacity: 0, y: -30 }}
