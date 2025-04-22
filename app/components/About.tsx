@@ -23,17 +23,21 @@ const skills = [
 
 const timeline = [
   {
-    year: "2025",
-    label: "Pursuing Master’s in Computer Science (planned)",
+    year: "2022–present",
+    label:
+      "Chef at Pincho Nation and looking to start a new role as a developer",
     location: "Copenhagen",
   },
   {
-    year: "2024",
+    year: "2022-2024",
     label: "Graduated PBA in Web Development",
     location: "Zealand Institute, Roskilde",
   },
-  { year: "2022–2024", label: "Cook at Pincho Nation", location: "Copenhagen" },
-  { year: "2019–2022", label: "Dotnet Developer", location: "Nepal" },
+  {
+    year: "2018–2022",
+    label: "Web-developer, ASP.NET dev, fullstack dev",
+    location: "Nepal",
+  },
 ];
 
 export default function About() {
@@ -54,11 +58,12 @@ export default function About() {
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.6 }}
       >
-        I’m Rukshan — a Nepalese developer based in Copenhagen, blending years
-        of experience in web development with a creative touch from my time as a
-        professional chef. I value curiosity, discipline, and bringing out the
-        best in a team. I am passionate about tech that solves real problems and
-        creating digital experiences that feel personal and useful.
+        I’m Rukshan — a Nepalese developer based in Copenhagen, accumulating
+        experience as a web developer for the last 7 years and currently gaining
+        some experience as a chef handling kitchen operations. I value
+        curiosity, discipline, and bringing out the best in a team. I am
+        passionate about tech that solves real problems and creating digital
+        experiences that feel personal and useful.
       </motion.p>
 
       <motion.div
@@ -109,16 +114,16 @@ export default function About() {
         transition={{ duration: 0.6 }}
       >
         <div>
-          <FaGuitar className="text-2xl mb-2 mx-auto" />I love playing guitar in
-          my downtime 🎸
+          <FaGuitar className="text-2xl mb-2 mx-auto" />
+          Listening and playing music in free time as a refreshment
         </div>
         <div>
           <FaMountain className="text-2xl mb-2 mx-auto" />
-          Hiking & travel give me creative clarity 🏞️
+          Love to travel & hike. It give me a sense of clarity
         </div>
         <div>
-          <FaUserTie className="text-2xl mb-2 mx-auto" />I value discipline,
-          honesty, and creative teamwork 💼
+          <FaUserTie className="text-2xl mb-2 mx-auto" />
+          Discipline, Honesty, and Teamwork are my core values
         </div>
       </motion.div>
     </section>
