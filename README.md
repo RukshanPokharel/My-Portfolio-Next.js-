@@ -57,9 +57,9 @@
 
 All content is reusable and extendable.
 
-## How to use (EmailJS) integration for real email delivery without backend.
+# How to use (EmailJS) integration for real email delivery without backend.
 
-# Step 1: Create EmailJS Account
+## Step 1: Create EmailJS Account
 
 1. Go to https://www.emailjs.com/
 2. Sign up and log in
@@ -70,11 +70,11 @@ All content is reusable and extendable.
    o Template ID
    o Public Key
 
-# Step 2: Install EmailJS SDK
+## Step 2: Install EmailJS SDK
 
 - npm install emailjs-com.
 
-# Step 3: Use it in a component
+## Step 3: Use it in a component
 
        import { useRef, useState } from 'react'
 
@@ -117,7 +117,7 @@ Return(
 {status && <p className="mt-4 text-sm text-green-500">{status}</p>}
 )
 
-# Step 4: Add Environment Variables
+## Step 4: Add Environment Variables
 
 Create .env.local in your root folder:
 NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
@@ -135,7 +135,7 @@ npm install
 npm run dev
 ```
 
-# Rename .env.example to .env.local and add your EmailJS keys:
+## Rename .env.example to .env.local and add your EmailJS keys:
 
 NEXT_PUBLIC_EMAILJS_SERVICE_ID=
 NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=
