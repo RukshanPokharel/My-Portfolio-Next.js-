@@ -25,5 +25,23 @@ export const projects = [
     github: "https://github.com/RukshanPokharel/nextjs-dashboard-demo",
     demo: "https://next-learn-dashboard.vercel.sh/",
   },
+  {
+    title: "A fullstack AI powered SaaS project.",
+    description:
+      "The credits goes to the tutor antonio @codewithantonio. The projects uses Next 13, Tailwind v3, OpenAI, Stripe, Prisma, Crisp and Vercel for deployment.",
+    image: "/ai-saas-dashboard.png",
+    tech: [
+      "NextJS 13",
+      "MySQL",
+      "tailwind CSS",
+      "App-router",
+      "OpenAI",
+      "Stripe",
+      "Prisma",
+      "Crisp",
+    ],
+    github: "https://github.com/RukshanPokharel/ai-integration-saas-project",
+    demo: "",
+  },
   // Add more projects...
 ];
