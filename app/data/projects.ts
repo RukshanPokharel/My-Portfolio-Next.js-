@@ -41,7 +41,7 @@ export const projects = [
       "Crisp",
     ],
     github: "https://github.com/RukshanPokharel/ai-integration-saas-project",
-    demo: "",
+    demo: "https://ai-integration-saas-project.vercel.app",
   },
   // Add more projects...
 ];
