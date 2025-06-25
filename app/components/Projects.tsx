@@ -21,6 +21,17 @@ export default function Projects() {
         Projects
       </motion.h2>
 
+      <motion.h3
+        className="text-1xl font-medium mb-10 text-grey-900 dark:text-white"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        The following projects are only my personal practice or training
+        projects. The projects I have done in my real jobs were in-house
+        projects. I can provide description and links of them upon needed.
+      </motion.h3>
+
       <motion.div
         className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10"
         initial={{ opacity: 0 }}
