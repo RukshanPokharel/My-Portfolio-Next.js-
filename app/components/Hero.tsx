@@ -9,7 +9,7 @@ export default function Hero() {
       <motion.img
         src="/profile.jpg"
         alt="Rukshan Profile"
-        className="w-40 h-40 rounded-full object-cover mb-6 border-4 border-blue-500 shadow-lg"
+        className="w-80 h-80 rounded-full object-cover mb-6 border-4 border-blue-500 shadow-lg"
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ duration: 0.5 }}
@@ -32,9 +32,10 @@ export default function Hero() {
       >
         <Typewriter
           words={[
-            "Full Stack Developer",
-            "React & .NET Enthusiast",
-            "Problem Solver",
+            "Software Developer",
+            "Full-Stack Web Developer",
+            "React and C# specialist",
+            "Love Coding",
           ]}
           loop={true}
           cursor

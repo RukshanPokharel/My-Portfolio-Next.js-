@@ -59,11 +59,12 @@ export default function About() {
         transition={{ delay: 0.2, duration: 0.6 }}
       >
         I’m Rukshan — a Nepalese developer based in Copenhagen, accumulating
-        experience as a web developer for the last 7 years and currently gaining
-        some experience as a chef handling kitchen operations. I value
-        curiosity, discipline, and bringing out the best in a team. I am
-        passionate about tech that solves real problems and creating digital
-        experiences that feel personal and useful.
+        experience as a web developer for the last 7 years and currently seeking
+        a job to convert my skills into results. I value curiosity, discipline,
+        growth and bringing out the best of myself and the team. I am passionate
+        about tech and love to solve problems in a collaborative and supportive
+        environment and creating digital experiences that feel personal and
+        useful.
       </motion.p>
 
       <motion.div
@@ -115,15 +116,15 @@ export default function About() {
       >
         <div>
           <FaGuitar className="text-2xl mb-2 mx-auto" />
-          Listening and playing music in free time as a refreshment
+          Listening and playing music in free time as a refreshment.
         </div>
         <div>
           <FaMountain className="text-2xl mb-2 mx-auto" />
-          Love to travel & hike. It give me a sense of clarity
+          Love to travel & hike. It give me a sense of clarity.
         </div>
         <div>
           <FaUserTie className="text-2xl mb-2 mx-auto" />
-          Discipline, Honesty, and Teamwork are my core values
+          Discipline, Honesty, Resilience and Teamwork are my work ethics.
         </div>
       </motion.div>
     </section>
